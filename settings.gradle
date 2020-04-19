@@ -1,0 +1,2 @@
+rootProject.name='My Application'
+include ':lw_02', ':lw_02.2', ':lw_02.3', ':lw_02.4', ':lw_02.5'

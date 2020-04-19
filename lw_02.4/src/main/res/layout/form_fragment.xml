@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/formGraphicId"
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:minWidth="20dp"
+        android:minHeight="20dp" />
+
+    <TextView
+        android:id="@+id/formTextId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/formGraphicId"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="asd sadasdasd asdas das asd asdas asd asd aasd asda asd asda sd asd asd asd asdasd asd"
+        android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+</RelativeLayout>
